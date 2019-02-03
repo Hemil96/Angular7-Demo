@@ -1,3 +1,6 @@
-<p>
-  home works!
-</p>
+<!-- H1 will be gray if h1style is true -->
+<h1 [ngClass]="{
+    'gray': h1style,
+    'large': !h1style
+}">Home</h1>
+<button (click)=firstClick()>Click me</button>

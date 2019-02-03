@@ -11,5 +11,9 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
   }
+  h1style: boolean = false;
 
+  firstClick() {
+    this.h1style = true;
+  } 
 }
